@@ -10,10 +10,9 @@ public class W01_Section1_13 {
 		double f = 5.9;
 		double x = (e * d - b * f) / (a * d - b * c);
 		double y = (a * f - e * c) / (a * d - b * c);
-		
-		System.out.println("x = "+x);
-		System.out.println("y = "+y);
+
+		System.out.println("x = " + x);
+		System.out.println("y = " + y);
 	}
 
 }
-//Completed!

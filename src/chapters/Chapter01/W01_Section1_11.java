@@ -10,11 +10,11 @@ public class W01_Section1_11 {
 		double CurrentPopulation = 312032486;
 
 		for (int i = 1; i < 6; i++) {
-			CurrentPopulation = CurrentPopulation + (BirthRateInSecond + NewImmigrantRateInSecond - DeathRateInSecond) * SecondsInYear;
-			System.out.println(i + ".year, new population : " +CurrentPopulation);
+			CurrentPopulation = CurrentPopulation
+					+ (BirthRateInSecond + NewImmigrantRateInSecond - DeathRateInSecond) * SecondsInYear;
+			System.out.println(i + ".year, new population : " + CurrentPopulation);
 		}
 
 	}
 
 }
-//Completed!

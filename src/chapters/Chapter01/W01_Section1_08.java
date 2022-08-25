@@ -10,10 +10,9 @@ public class W01_Section1_08 {
 
 		perimeter = 2 * radius * Math.PI;
 		area = radius * radius * Math.PI;
-		
+
 		System.out.println(perimeter);
 		System.out.println(area);
 	}
 
 }
-//Completed!
