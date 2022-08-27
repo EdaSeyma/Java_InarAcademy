@@ -7,6 +7,7 @@ public class ParaBozma {
 		System.out.println("Bozduracağınız para tutarını giriniz:");
 
 		double para = klavye.nextDouble();
+		
 
 		int toplamPara = (int) (para * 100);
 		System.out.println("Toplam para: " + toplamPara);
