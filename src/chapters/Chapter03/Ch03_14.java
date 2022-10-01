@@ -11,7 +11,7 @@ public class Ch03_14 {
 		System.out.println("Enter guess");
 		int guess = input.nextInt();
 
-		if (mac == 1) {
+		if (mac == guess) {
 			System.out.println("Your answer is true");
 		} else {
 			System.out.println("Your answer is false");
